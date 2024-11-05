@@ -1,25 +1,24 @@
-# TrajetoriaBola
-Repositório referendo a Tarefa2
+## Trajetória da Bola 
 
+### Análise da Trajetória em 3D
 
-# Análise da Trajetória da Bola em 3D
+Este projeto explora a análise da trajetória de uma bola utilizando técnicas de visão computacional. A partir de uma sequência de imagens, a bola é detectada e suas coordenadas são utilizadas para gerar uma animação 3D realista.
 
-Este projeto tem como objetivo analisar a trajetória de uma bola a partir de uma série de imagens, utilizando técnicas de visão computacional para detectar a bola e registrar suas coordenadas em um arquivo CSV. Em seguida, as coordenadas são utilizadas para criar uma animação 3D da trajetória da bola.
+### Metodologia
 
-## Descrição do Trabalho
+1. **Aquisição de Imagens:** As imagens foram capturadas em um ambiente controlado, garantindo condições de iluminação e contraste adequados.
+2. **Detecção da Bola:**
+   * **Pré-processamento:** As imagens foram convertidas para escala de cinza e aplicados filtros para reduzir ruído.
+   * **Transformada de Hough:** A Transformada de Hough foi utilizada para detectar círculos nas imagens, representando a bola. A transformada de Hough é um método de detecção de formas geométricas em imagens, ideal para detectar objetos circulares como a bola.
+3. **Rastreamento da Bola:** As coordenadas do centro da bola foram extraídas em cada frame, permitindo rastrear sua trajetória ao longo do tempo.
+4. **Visualização 3D:** Utilizando a biblioteca VPython, as coordenadas 3D da bola foram plotadas em um gráfico 3D, gerando uma animação realista da trajetória.
 
-O trabalho foi realizado em duas etapas principais:
+### Resultados
 
-1. **Detecção da Bola**: Utilizamos a Transformada de Hough para detectar a bola nas imagens em escala de cinza.
-2. **Animação 3D**: Com as coordenadas obtidas, foi gerada uma animação 3D da trajetória da bola usando a biblioteca VPython.
+A animação gerada demonstra a efetividade das técnicas utilizadas para detectar e rastrear a bola. A visualização 3D permite uma análise detalhada da trajetória, identificando pontos de inflexão e variações de velocidade.
 
-**Visualização da Animação**
-A animação gerada foi salva no formato GIF e está disponível abaixo para visualização:
-![]('https://raw.githubusercontent.com/Marcal7/TrajetoriaBola/main/bola.gif')
+![Image of GIF animation]('bola.gif')
 
-**Considerações Finais**
-O projeto demonstrou a aplicação de técnicas de visão computacional na análise de trajetória de objetos. A Transformada de Hough foi eficaz na detecção da bola, e a visualização 3D proporcionou uma melhor compreensão da trajetória percorrida.
-
-Referências
-[OpenCV Documentation]('https://docs.opencv.org/4.x/index.html')
-[VPython Documentation]('https://vpython.org/contents/doc.html')
+### Referências
+* OpenCV Documentation: https://docs.opencv.org/4.x/index.html
+* VPython Documentation: https://vpython.org/contents/doc.html
