@@ -15,7 +15,7 @@ O trabalho foi realizado em duas etapas principais:
 
 **Visualização da Animação**
 A animação gerada foi salva no formato GIF e está disponível abaixo para visualização:
-![]('https://github.com/Marcal7/TrajetoriaBola/blob/main/bola.gif')
+![]('https://raw.githubusercontent.com/Marcal7/TrajetoriaBola/main/bola.gif')
 
 **Considerações Finais**
 O projeto demonstrou a aplicação de técnicas de visão computacional na análise de trajetória de objetos. A Transformada de Hough foi eficaz na detecção da bola, e a visualização 3D proporcionou uma melhor compreensão da trajetória percorrida.
