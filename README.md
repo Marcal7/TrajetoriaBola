@@ -15,11 +15,11 @@ O trabalho foi realizado em duas etapas principais:
 
 **Visualização da Animação**
 A animação gerada foi salva no formato GIF e está disponível abaixo para visualização:
-`caminho/para/o/seu/arquivo.gif`
+![]("bola.gif")
 
 **Considerações Finais**
 O projeto demonstrou a aplicação de técnicas de visão computacional na análise de trajetória de objetos. A Transformada de Hough foi eficaz na detecção da bola, e a visualização 3D proporcionou uma melhor compreensão da trajetória percorrida.
 
 Referências
-OpenCV Documentation('https://docs.opencv.org/4.x/index.html')
-VPython Documentation('https://vpython.org/contents/doc.html')
+[OpenCV Documentation]('https://docs.opencv.org/4.x/index.html')
+[VPython Documentation]('https://vpython.org/contents/doc.html')
