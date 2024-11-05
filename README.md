@@ -17,7 +17,7 @@ Este projeto explora a análise da trajetória de uma bola utilizando técnicas 
 
 A animação gerada demonstra a efetividade das técnicas utilizadas para detectar e rastrear a bola. A visualização 3D permite uma análise detalhada da trajetória, identificando pontos de inflexão e variações de velocidade.
 
-![Image of GIF animation]('bola.gif')
+![Image of GIF animation]('https://github.com/Marcal7/TrajetoriaBola/blob/main/bola.gif')
 
 ### Referências
 * OpenCV Documentation: https://docs.opencv.org/4.x/index.html
