@@ -23,7 +23,7 @@ O arquivo 'CoordenadasBolaCorreto.csv', encontrado em
 
 Apresenta o trajetória da bola, arquivo o qual pode ser colocado em software de modelagem como o 'Blender', para melhor vizualização.
 
-![Trajetória Bola]('bola.gif')
+![Trajetória Bola](https://github.com/Marcal7/TrajetoriaBola/blob/main/bola.gif)
 
 ### Referências
 * OpenCV Documentation: https://docs.opencv.org/4.x/index.html
