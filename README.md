@@ -16,6 +16,14 @@ Este projeto explora a análise da trajetória de uma bola utilizando técnicas 
 ### Resultados
 
 A animação demostra a trajetória da bola!
+O arquivo 'CoordenadasBolaCorreto.csv', encontrado em
+-> Reconstrução3DTarefa2
+  -> Main
+    -> CoordenadasBolaCorreto.csv
+
+Apresenta o trajetória da bola, arquivo o qual pode ser colocado em software de modelagem como o 'Blender', para melhor vizualização.
+
+![Trajetória Bola]('bola.gif')
 
 ### Referências
 * OpenCV Documentation: https://docs.opencv.org/4.x/index.html
